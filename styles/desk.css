@@ -1,0 +1,182 @@
+/*--------- para PC aplica de 600 px en adelante ---------*/
+
+@media (min-width: 600px) {
+
+/*----------------------------------------------comun------------------------------------------- */
+    .container {
+        padding: 20px 10% 0px 10%;
+    }
+    .button{
+        background-color: #00F3BB;
+        font-family: 'IBM Plex Mono';
+        font-size: 16px;
+        font-weight: bold;
+        color: #060A24;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 22px;
+        padding: 0.7rem;
+        margin: 2rem 0rem;
+        width: 226px;    
+    }
+    .deskRow{
+            
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        justify-items: center;  
+    }
+    .column{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        justify-items: center;
+        margin: auto;
+        width: 20%;
+    }
+
+    .hero-banner p{
+        width: 50%;
+    }
+
+    h1{
+        font-size: 60px;
+        color: #060A24;
+        letter-spacing: 0;
+        font-weight: normal;
+        line-height: 80px;
+    }
+    h2{
+        font-family:'IBM Plex Sans', sans-serif;
+        font-size: 36px;
+        color: #060A24;
+        letter-spacing: 0;
+        font-weight: normal;
+        line-height: 42px;
+
+    }
+    p{
+        font-size: 14px;
+        color: #060A24;
+        letter-spacing: 0;
+        font-family: 'IBM Plex Mono', monospace;
+        line-height: 22px;
+    }
+   
+/*----------------------------------------------navar------------------------------------------- */
+
+.menu,
+#menu-toggle,
+#menu-toggle + .col-11 .fa-close, 
+#menu-toggle + .col-11  .fa-bars,
+#menu-toggle:checked + .col-11 + .menu, 
+#menu-toggle:checked + .col-11  .fa-close{
+    display: none;
+}
+
+
+#navega {
+    display: initial;
+}
+
+a{
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+    color: #060A24;
+    letter-spacing: 0;
+    line-height: 28px;
+
+}
+
+a:hover{
+    color: #00F3BB;
+}
+
+.rowNav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-items: center;
+    justify-content: space-between;
+    
+}
+
+
+
+/*----------------------------------------------episodios------------------------------------------- */
+    .episodios .clipped-background{
+
+        background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+        color: white;
+        padding: 150px 0px 250px 0px;
+        clip-path: polygon(0% 10%, 100% 0%, 100% 90%, 0% 100%);
+    }
+    .cont-epi{
+        padding: 20px 0px;
+        max-width: 45%;
+    }
+
+    .contDesk{
+        padding: 0 0 0 10%;
+    }
+/*----------------------------------------------venimos------------------------------------------- */
+    .venimos{
+        font-family:'IBM Plex Sans', sans-serif;
+    }
+                
+    .phone{
+        position: relative;
+        margin-top: -150px;
+        width: 33.8%;
+        min-width: 300px;
+    }
+    .nosotros{
+        margin-top: -70px;
+        width: 33.8%;
+    }
+    .nosotros p {
+        font-size: 10px;
+    }
+/*----------------------------------------------entrevistas------------------------------------------- */
+
+    .invitadas{
+        width: 33.33%;
+    }
+/*----------------------------------------------temas------------------------------------------- */
+
+    .containerTemas{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        justify-items: center;
+        margin: auto;
+        width: 100%;
+    }
+   
+    
+/*----------------------------------------------contactos------------------------------------------- */
+    .contacto .button{
+        margin: auto;
+    }
+/*----------------------------------------------footer------------------------------------------- */
+    .foot{
+        width: 30%;
+        margin: 0%;
+    }
+    .social{
+        width: 30%;
+        margin-top: 10px;
+    }
+      .iconSocial{
+        display: flex;
+        justify-items: center;
+        padding: 5%;
+        color: #060A24;
+        font-size: 18px;
+        line-height: 28px; 
+    }
+
+}
